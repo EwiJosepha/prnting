@@ -1,14 +1,14 @@
 
-const display= document.getElementById("display")
-const check= document.getElementById("check")
+const display = document.getElementById("display")
+const check = document.getElementById("check")
 
-let arr=[]
+let arr = []
 
 const numm = () => {
-  const startt= document.getElementById("start")
-  const endd= document.getElementById("end")
+  const startt = document.getElementById("start")
+  const endd = document.getElementById("end")
   console.log(endd)
-  for(i=startt.value; i<=endd.value; i++){
+  for (i = startt.value; i <= endd.value; i++) {
     arr.push(i)
   }
   console.log(arr)
@@ -20,6 +20,6 @@ check.addEventListener("click", numm);
 
 
 
- 
+
 
 
